@@ -1,0 +1,12 @@
+<h1>{{title | lowercase}}</h1>
+<h1>{{count | number}}</h1>
+<h1>{{dcVal | number :'1.0-0'}}</h1>
+<h1>{{price | currency}}</h1><!--Default Currency pipe assign to $-->
+<h1>{{price | currency :'JPY':false:'2.1-1'}}</h1>
+<h1>{{day | date:'shortDate'}}</h1>
+<h1>{{objSub | json}}</h1>
+<h1>{{presntPipe | percent : '1.1-1'}}</h1>
+<h1>{{simpleArr | slice:0:2}}</h1>
+<h1>{{userDetails.city | append}}</h1>
+<h1>{{userDetails.country|appendCli}}</h1>
+<p>{{dummyText| pipeArguement:30}}</p>
